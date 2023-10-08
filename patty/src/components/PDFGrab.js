@@ -20,6 +20,8 @@ function PDFGrab() {
   //   const onFileLoad = ({ target: { result } }) => {
   //     setPdfData(result);
   //   };
+  //
+  // in close event we are sure that stream from child process is closed
 
   const handleFileChange = (event) => {
     const selectedFile = event.target.files[0];
